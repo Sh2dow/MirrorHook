@@ -64,6 +64,10 @@ Currently, only mouse and keyboard events are supported.
 This is a strictly WIN32-API library. The code will *not* work in any other environment unless you can provide the necessary libraries. (e.g., WineHQ)
 The code utilizes C++14 and is built against the `Windows 7 SDK` with the `Visual Studio 2017 - Windows XP (v141_xp)` toolset. The output will work on Windows XP SP1 and above.
 
-## AppVeyor Build:
+## AppVeyor Build Status:
 
-[![Build status](https://ci.appveyor.com/api/projects/status/your_project_id?svg=true)](https://ci.appveyor.com/project/Sh2dow/mirrorhook)
+[![Build status](https://ci.appveyor.com/api/projects/status/sxq18k2rlxq5wbc0/branch/master?svg=true)](https://ci.appveyor.com/project/Sh2dow/mirrorhook/branch/master)
+
+## Download Artifacts:
+
+[![Build Artifacts](https://ci.appveyor.com/api/projects/status/sxq18k2rlxq5wbc0/branch/master?svg=true)](https://ci.appveyor.com/project/Sh2dow/mirrorhook/build/artifacts)
