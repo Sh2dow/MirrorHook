@@ -28,7 +28,7 @@ jobs:
         run: msbuild MirrorHook.sln /p:Configuration=Release /p:Platform=x86 /p:PlatformToolset=v141_xp
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: MirrorHook-artifacts
-          path: Release\*.*
+          path: bin\Release\*.*
