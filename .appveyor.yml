@@ -22,7 +22,7 @@ build_script:
   - cmd: msbuild MirrorHook.sln /p:Configuration=Release /p:Platform=x86
 
 artifacts:
-  - path: $(SolutionDir)Release\*.*
+  - path: $(Configuration)\*.*
     name: MirrorHook-artifacts
 
 cache:
