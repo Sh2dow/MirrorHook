@@ -108,7 +108,7 @@ namespace MemoryEditor {
     mutable std::unordered_map<std::uintptr_t, MemoryAccessInfo> mAccessInfos;
 
     inline std::uint32_t CalcDistance(std::uintptr_t from, std::uintptr_t to) const {
-      return to - from - sizeof(std::uint32_t) - 1;
+      return static_cast<std::uint32_t>(to - from - sizeof(std::uint32_t) - 1);
     }
 
     explicit Editor() {
