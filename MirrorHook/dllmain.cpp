@@ -2,14 +2,14 @@
 #include "Memory.h"
 
 #include <d3d9.h>
-#include "imgui.h"
-#include "dx9\imgui_impl_dx9.h"
 #include "D3D9Types.h"
 
 #include <dinput.h>
 #include "DI8Types.h"
 
-#include "Definitions.hpp"
+#include "inc/Definitions.hpp"
+#include "inc/imgui/imgui.h"
+#include "inc/imgui/dx9/imgui_impl_dx9.h"
 using MirrorHook::D3D9::D3D9Extension;
 using MirrorHook::DI8::DI8Device;
 using MirrorHook::DI8::DI8Extension;
