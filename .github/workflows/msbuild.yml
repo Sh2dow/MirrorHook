@@ -21,11 +21,10 @@ jobs:
 
       - name: Install v141_xp toolset
         run: |
-          choco install visualstudio2017buildtools --params "--add Microsoft.VisualStudio.Component.VC.v141.xp"
-          choco install windows-sdk-7
+          choco install visualstudio2017buildtools --params "--add Microsoft.VisualStudio.Component.VC.v142"
 
       - name: Build with Windows 7 SDK
-        run: msbuild MirrorHook.sln /p:Configuration=Release /p:Platform=x86 /p:PlatformToolset=v141_xp
+        run: msbuild MirrorHook.sln /p:Configuration=Release /p:Platform=x86 /p:PlatformToolset=v142
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
