@@ -8,6 +8,11 @@
 // - ImFont
 // - Default font data
 
+#ifdef _DEBUG
+#include "stdafx.h"
+#endif
+
+
 #if defined(_MSC_VER) && !defined(_CRT_SECURE_NO_WARNINGS)
 #define _CRT_SECURE_NO_WARNINGS
 #endif
